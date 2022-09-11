@@ -139,9 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\shared\get_proc_address.cpp" />
     <ClCompile Include="hash_import_table.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\shared\get_proc_address.h" />
     <ClInclude Include=".h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

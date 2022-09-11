@@ -5,15 +5,24 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="源文件\shared">
+      <UniqueIdentifier>{0ca6f449-a4ba-4d6e-9423-b6bc6487f99b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="hash_import_table.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="..\shared\get_proc_address.cpp">
+      <Filter>源文件\shared</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include=".h">
       <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\get_proc_address.h">
+      <Filter>源文件\shared</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hash_import_table", "hash_i
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hash_import_table64", "hash_import_table64\hash_import_table64.vcxproj", "{C58BE527-89A9-4884-925B-86CE1EBCBFC9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "std_hash_string", "std_hash_string\std_hash_string.vcxproj", "{1DE16028-5ABB-4554-9B99-C106AEED0613}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -29,8 +31,16 @@ Global
 		{C58BE527-89A9-4884-925B-86CE1EBCBFC9}.Debug|x86.Build.0 = Debug|x64
 		{C58BE527-89A9-4884-925B-86CE1EBCBFC9}.Release|x64.ActiveCfg = Release|x64
 		{C58BE527-89A9-4884-925B-86CE1EBCBFC9}.Release|x64.Build.0 = Release|x64
-		{C58BE527-89A9-4884-925B-86CE1EBCBFC9}.Release|x86.ActiveCfg = Release|Win32
-		{C58BE527-89A9-4884-925B-86CE1EBCBFC9}.Release|x86.Build.0 = Release|Win32
+		{C58BE527-89A9-4884-925B-86CE1EBCBFC9}.Release|x86.ActiveCfg = Release|x64
+		{C58BE527-89A9-4884-925B-86CE1EBCBFC9}.Release|x86.Build.0 = Release|x64
+		{1DE16028-5ABB-4554-9B99-C106AEED0613}.Debug|x64.ActiveCfg = Debug|x64
+		{1DE16028-5ABB-4554-9B99-C106AEED0613}.Debug|x64.Build.0 = Debug|x64
+		{1DE16028-5ABB-4554-9B99-C106AEED0613}.Debug|x86.ActiveCfg = Debug|x64
+		{1DE16028-5ABB-4554-9B99-C106AEED0613}.Debug|x86.Build.0 = Debug|x64
+		{1DE16028-5ABB-4554-9B99-C106AEED0613}.Release|x64.ActiveCfg = Release|x64
+		{1DE16028-5ABB-4554-9B99-C106AEED0613}.Release|x64.Build.0 = Release|x64
+		{1DE16028-5ABB-4554-9B99-C106AEED0613}.Release|x86.ActiveCfg = Release|Win32
+		{1DE16028-5ABB-4554-9B99-C106AEED0613}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
